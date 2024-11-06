@@ -1,0 +1,25 @@
+<div class="main">
+    <div class="login-head">
+        <div class="img">
+            <img src="./logo.png" alt="logo" />
+        </div>
+        <div class="logo-name">
+            <h1>Forgot Password</h1>
+            <p>Skill Development Hub</p>
+        </div>
+    </div>
+    <div class="login-main">
+        <form [formGroup]="forgotPasswordForm" (ngSubmit)="submitForgotPassword()">
+            <mat-form-field appearance="fill" style="width: 100%;">
+                <mat-label>Email Address</mat-label>
+                <input matInput formControlName="email" type="email" placeholder="Enter Your Email" required />
+            </mat-form-field>
+
+            <button mat-raised-button color="primary" type="submit">Reset Password</button>
+        </form>
+
+        <div class="forget-pass">
+            <p>Remembered your password? <a href="signin">Login Here</a></p>
+        </div>
+    </div>
+</div>

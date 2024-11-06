@@ -1,13 +1,13 @@
 .main {
     font-family: 'Times New Roman', Times, serif;
     border: 1px solid #DC143C;
-    height: 450px;
+    height: 350px;
     max-width: 350px;
     margin: auto;
     margin-top: 150px;
     box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
     background-color: #fff;
-    margin-bottom: 200px;
+    margin-bottom: 264px;
 }
 
 .login-head {
@@ -15,6 +15,7 @@
     height: 100px;
     display: flex;
     align-items: center;
+    padding-left: 20px;
 }
 
 .img {
@@ -22,7 +23,7 @@
     height: 70px;
     width: 70px;
     border-radius: 50%;
-    margin-left: 20px;
+    margin-left: 0px;
 }
 
 .login-head img {
@@ -34,31 +35,21 @@
 .login-head h1 {
     font-family: 'Times New Roman', Times, serif;
     color: #fff;
-    margin-top: 15px;
     font-size: 22px;
+    margin-left: 10px;
     margin-bottom: 0;
 }
 
-.logo-name {
-    margin-left: 10px;
-}
-
 .logo-name p {
-    margin-top: -25px;
-    margin-bottom: 30px;
     color: #fff;
     font-size: 13px;
+    margin-top: -25px;
+    margin-left: 9px;
 }
 
-/* Login Form Section */
 .login-main {
     padding: 20px;
     margin-top: 15px;
-}
-
-.login-main label {
-    font-size: 15px;
-    color: black;
 }
 
 mat-form-field {
@@ -75,16 +66,16 @@ button[type="submit"] {
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    margin-top: 20px;
+    margin-top: 0px;
 }
 
 button[type="submit"]:hover {
-    background-color: #c41e30; /* Darker shade on hover */
+    background-color: #c41e30;
 }
 
 .forget-pass {
-    margin-top: 0;
-    text-align: end;
+    margin-top: 5px;
+    text-align: center;
 }
 
 .forget-pass a {

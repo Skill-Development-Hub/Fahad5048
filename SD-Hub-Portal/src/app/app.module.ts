@@ -20,6 +20,7 @@ import { ContactComponent } from './contact/contact.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { CoursesComponent } from './courses/courses.component';
 import { FooterComponent } from './footer/footer.component';
+import { ForgotComponent } from './forgot/forgot.component';
 
 
 
@@ -34,6 +35,7 @@ import { FooterComponent } from './footer/footer.component';
     NavbarComponent,
     CoursesComponent,
     FooterComponent,
+    ForgotComponent,
   ],
   imports: [
     BrowserModule,
