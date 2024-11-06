@@ -1,0 +1,64 @@
+/* Courses Container Styling */
+.courses-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f9f9f9; /* Matches light form background */
+  border: 1px solid #DC143C; /* Border to align with main-register */
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(134, 132, 132, 0.3); /* Slightly adjusted shadow */
+}
+
+/* Heading Styling */
+.courses-container h1 {
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+  color: #DC143C; /* Matches main theme color */
+  margin-bottom: 20px;
+}
+
+/* Course List Styling */
+.course-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Space between each course card */
+}
+
+/* Individual Course Card Styling */
+mat-card {
+  padding: 20px;
+  background-color: #ffffff; /* Consistent with form section */
+  border-left: 4px solid #DC143C; /* Accent border for theme */
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Course Card Title */
+mat-card-title {
+  font-size: 1.5rem;
+  font-family: 'Times New Roman', Times, serif;
+  color: #333; /* Darker color for emphasis */
+  margin-bottom: 5px;
+}
+
+/* Course Card Content */
+mat-card-content {
+  color: #555; /* Slightly muted color to differentiate from title */
+  font-size: 15px;
+}
+
+/* Button Styling in Cards */
+mat-card button {
+  margin-top: 10px;
+  padding: 8px 12px;
+  background-color: #DC143C;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+mat-card button:hover {
+  background-color: #c41e30; /* Slightly darker on hover */
+}

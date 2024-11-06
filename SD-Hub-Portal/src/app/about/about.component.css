@@ -1,0 +1,77 @@
+.about-container {
+  max-width: 1000px; /* Match max-width with other sections */
+  margin: 50px auto; /* Center and add vertical spacing */
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-container h1 {
+  text-align: center;
+  color: #DC143C;
+  font-size: 2.5rem; /* Consistent with main h1 */
+  margin-bottom: 20px;
+}
+
+.about-container h2 {
+  color: #DC143C;
+  font-size: 2rem; /* Match section title sizes */
+  margin-top: 30px;
+  border-bottom: 2px solid #DC143C;
+  padding-bottom: 5px;
+}
+
+.about-container p {
+  font-size: 1.2rem;
+  color: #666;
+  line-height: 1.6;
+}
+
+.history, .mission-vision, .values, .meet-team, .get-involved {
+  margin: 20px 0;
+  padding: 20px;
+  background-color: #ffffff;
+  border-left: 4px solid #DC143C;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.values ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  color: #666;
+  font-size: 1.1rem;
+}
+
+.values li {
+  margin: 5px 0;
+}
+
+.get-involved a {
+  color: #DC143C;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+.get-involved a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .about-container h1 {
+      font-size: 2rem;
+  }
+
+  .about-container h2 {
+      font-size: 1.5rem;
+  }
+
+  .about-container p {
+      font-size: 1rem;
+  }
+
+  .values ul {
+      padding-left: 15px;
+  }
+}
