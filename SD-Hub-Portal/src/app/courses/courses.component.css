@@ -3,6 +3,8 @@
   max-width: 800px;
   margin: 0 auto;
   padding: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
   background-color: #f9f9f9; /* Matches light form background */
   border: 1px solid #DC143C; /* Border to align with main-register */
   border-radius: 8px;
